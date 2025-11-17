@@ -1,0 +1,12 @@
+
+<div class="your-question">
+  <p><%= @question %></p>
+  <p><em>- You</em></p>
+</div>
+
+<div class="coaches-answer your-question">
+  <p><%= @coaches_answer %></p>
+  <p><em>- Your Coach</em></p>
+</div>
+
+<%= link_to "Ask a new question", ask_path, class: "btn btn-primary" %>
